@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }                                                                                                                                                                                                                   
+        form{
+            text-align: center;
+            background-color: aqua;
+        }
+        select {
+        @media screen {
+            
+        }    max-width:500px ; 
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="Fisrt Name"></label>
+                 
+            </td>
+            </tr>
+        </table>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Your Name">
+        <br>
+        <label for="Date of birth">D.O.B</label>
+        <input type="date">
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">others       
+        <br>
+        <label for="email">Email</label>
+        <input type="email" >
+        <br>
+        <label for="Phone Number">Phone Number</label>
+        <input type="number">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text"><br>
+        <input type="password"><br>
+        <input type="button" value="register"><br>
+        <input type=" button" value="login"><br>
+        <label for="Branch">Branch</label>
+        <select>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+
+        </select>
+    </form>
+</body>
+</html>
